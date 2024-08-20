@@ -10,7 +10,7 @@ $orcid = "0009-0001-0789-3994";
 
 $reader = new Reader();
 $profile = $reader->getProfile($orcid);
-$affiliations = $reader->getAffiliations($id);
-$works = $reader->getWorks($id);
+$affiliations = $reader->getAffiliations($orcid);
+$works = $reader->getWorks($orcid);
 
 ```
